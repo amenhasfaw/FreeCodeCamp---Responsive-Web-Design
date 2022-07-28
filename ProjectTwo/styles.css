@@ -1,0 +1,19 @@
+h1,h2{
+    text-align: center;
+    background-color: #2e2e2e;
+    color: #f3f6e4;
+    margin:0;
+  }
+  img{
+   display:block;
+  }
+  
+  #image{
+    max-width:100%;
+    height: auto;
+    border-radius: 500px;
+    
+  }
+  p{
+    font-family: "arial";
+  }
