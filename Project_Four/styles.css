@@ -6,7 +6,7 @@ body{
     position:fixed;
     top:0;
     left:0;
-    width:10000000px;
+    width:100vw;
     height:70px;
   }
   #header{
