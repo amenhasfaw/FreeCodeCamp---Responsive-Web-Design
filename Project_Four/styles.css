@@ -1,0 +1,158 @@
+body{
+    background-color:#ddd;
+  }
+  .block{
+    background-color:#ccc;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100000px;
+    height:70
+  }
+  #header{
+    display:flex;
+    align-items:center;
+    position:fixed;
+    top:20px;
+    left: 25px;
+  }
+  
+  #nav-bar{
+    position:fixed;
+    top:0px;
+    right:0;
+    padding-top:25px;
+  }
+  
+  
+  #header-img{
+    
+    width:15rem;
+    height:2.5rem;
+  }
+  .nav-link{
+    
+  
+    color:#222;
+    font-size:1.5rem;
+    padding: 5px ;
+    margin-right: 20px;
+    text-decoration:none;
+  }
+  
+  /* TOP SECTION */
+  
+  #top{
+    margin-top:100px;
+    text-align:center;
+    font-size:1.5rem;
+    font-weight:bold;
+  
+  }
+  .slogan{
+    font-size:2.5rem;
+    font-weight:bold;
+  }
+  
+  #email{
+    width:250px;
+    height:30px;
+  }
+  
+  #submit{
+    margin-top: 10px;
+    font-weight:bold;
+    background-color:yellow;
+    border:0;
+    cursor: pointer;
+  }
+  
+  /* FEATURES SECTION */
+  #features{
+      display: flex;
+      flex-direction:column;
+    justify-content: center;
+    align-items: center;
+  }
+  .inline{
+    width:70px;
+    float:left;
+    margin: 20px 50px 20px 50px;
+  }
+  
+  
+  h3{
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* How it works */
+  
+  #how_it_works{
+    display:flex;
+    justify-content:center;
+    margin:150px 0px;
+  }
+  
+  
+  /* PRICING */
+  #pricing{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  .offer:hover{
+     box-shadow: -4px -3px 45px 21px rgba(0,0,0,0.35)
+  }
+  
+  
+  .offer{
+    border:1px solid black;
+    margin: 20px;
+     display:flex;
+      
+     flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  button{
+    border:0;
+    background-color:yellow;
+    font-weight:bold;
+    cursor:pointer;
+    padding: 10px 5px;
+  }
+  .product{
+    background-color:#ccc;
+     font-weight:bold;
+    font-size: 30px;
+    padding: 20px 10px;
+    text-align:center;
+    
+  }
+  
+  
+  .price{
+     font-weight:bold;
+    font-size: 20px;
+    text-align:center;
+    margin:0;
+  }
+  
+  li{
+    list-style:none;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align:center;
+  }
+  
+  /* MEDIA QUERY */
+  
+  @media only screen and (min-width:790px){
+  .image-1{
+    margin:20px 50px 20px -9px;
+  }
+}
